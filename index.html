@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Embed API Demo</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="CSS/bootstrap.min.css">
+		<script src="javascripts/jquery.min.js"></script>
+		<script src="javascripts//bootstrap.min.js"></script>
+		<script src="javascripts/google-header.js"></script>
+		<script src="javascripts/Chart.min.js"></script>
+		<script src="javascripts/moment.min.js"></script>
+		<script src="javascripts/embed-api/components/view-selector2.js"></script>
+		<script src="javascripts/embed-api/components/date-range-selector.js"></script>
+		<script src="javascripts/embed-api/components/active-users.js"></script>
+		<link rel="stylesheet" href="CSS/index.css">
+	</head>
+	<body>
+		<div class= "GA-content">
+			<div id="embed-api-auth-container"></div>
+			<div id="view-selector-container" class = "view-selector-class"></div>
+			<div id="active-users-container" class = "active-users-container-class"></div>
+			<div class = "data-chart-history">
+				<h4 id = "Sessions-History"> Sessions History</h4>
+				<div id="data-chart-2-container" class = "data-chart-2-container-class"></div>
+				<div id="date-range-selector-2-container" class="date-range-selector-2-container-class"></div>
+			</div>
+			<div class = "top-countries-session">
+				<h4 id = "Top-Countries-Text"> Top Countries by Session</h4>
+				<div id="chart-3-container" class ="chart-3-container-class"></div>
+			</div>
+			<div class = "this-week-vs-last-week">
+				<h4 id = "this-week-vs-last-week-text"> This Week vs Last Week (By Sessions)</h4>
+				<div id="chart-1-container" ></div>
+				<div id="legend-1-container"></div>
+			</div>
+			<div class = "this-year-vs-last-year">
+				<h4 id = "this-year-vs-last-year-text"> This Year vs Last Year (By Users)</h4>
+				<div id="chart-4-container" ></div>
+				<div id="legend-4-container">
+					<li><i style="background:rgba(220,220,220,0.5)"></i>Last Week</li><li><i style="background:rgba(151,187,205,0.5);"></i>This Week</li>
+				</div>
+			</div>
+
+			<div id="chart-2-container" ></div>
+			<script src="javascripts/Embed.js"></script>
+		</div>
+	</body>
+</html>
