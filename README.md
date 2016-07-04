@@ -10,9 +10,7 @@ Steps on how to run Google Analytics API
 4. Create a 'New Project' in the upper right corner.
 
 5. Create Client ID and Add Restrictions.
-
--Copy the client ID
-
--Go to Embed.js File, then paste it in clientid field
+   -Copy the client ID
+   -Go to Embed.js File, then paste it in clientid field
 
 6. Add Domain verification by Going to the Domain verification Tab
